@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像テスト成功 - The Noble Academy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a3a52 0%, #2c5f7f 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .success-banner {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(76, 175, 80, 0.3);
+        }
+        
+        .success-banner h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .success-banner p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .test-section {
+            margin: 40px 0;
+        }
+        
+        .test-section h2 {
+            color: #1a3a52;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #c9a961;
+        }
+        
+        .image-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .image-container img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .image-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #c9a961;
+        }
+        
+        .info-box h3 {
+            color: #2c5f7f;
+            margin-bottom: 15px;
+        }
+        
+        .info-item {
+            padding: 12px;
+            margin: 8px 0;
+            background: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: start;
+        }
+        
+        .info-item strong {
+            color: #1a3a52;
+            min-width: 120px;
+            display: inline-block;
+        }
+        
+        .code {
+            background: #e9ecef;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            word-break: break-all;
+        }
+        
+        .next-steps {
+            background: linear-gradient(135deg, #2c5f7f 0%, #1a3a52 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+        
+        .next-steps h3 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        .next-steps ol {
+            padding-left: 25px;
+        }
+        
+        .next-steps li {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #c9a961;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #b89651;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success-banner">
+            <h1>🎉 画像テスト成功!</h1>
+            <p>GitHubから画像を正しく読み込めています</p>
+        </div>
+        
+        <div class="test-section">
+            <h2>📸 手動アップロード画像のテスト</h2>
+            <div class="image-container">
+                <img src="images/QX66m6VV.png" alt="Five Pillars of Noble Education">
+            </div>
+            <p style="text-align: center; color: #666; margin-top: 15px;">
+                ✨ この画像は <code class="code">images/QX66m6VV.png</code> から読み込まれています
+            </p>
+        </div>
+        
+        <div class="info-box">
+            <h3>📋 技術情報</h3>
+            <div class="info-item">
+                <strong>画像パス:</strong>
+                <span class="code">images/QX66m6VV.png</span>
+            </div>
+            <div class="info-item">
+                <strong>スタイル:</strong>
+                <span class="code">width: 100%, height: 280px, object-fit: cover</span>
+            </div>
+            <div class="info-item">
+                <strong>方式:</strong>
+                <span>相対パス（GitHubリポジトリ内）</span>
+            </div>
+        </div>
+        
+        <div class="info-box">
+            <h3>🌐 アクセスURL</h3>
+            <div class="info-item" style="flex-direction: column; align-items: start;">
+                <strong>GitHub Pages:</strong>
+                <span class="code">https://teddybrown1124-create.github.io/noble-academy-brochure/images/QX66m6VV.png</span>
+            </div>
+            <div class="info-item" style="flex-direction: column; align-items: start;">
+                <strong>このテストページ:</strong>
+                <span class="code">https://teddybrown1124-create.github.io/noble-academy-brochure/test-manual-image.html</span>
+            </div>
+        </div>
+        
+        <div class="next-steps">
+            <h3>🎯 次のステップ</h3>
+            <ol>
+                <li><strong>画像の表示を確認</strong><br>このページで画像が正しく表示されているか確認してください</li>
+                <li><strong>パンフレットに適用</strong><br>同じ方法で <code>index_v2.html</code> にも画像を組み込めます</li>
+                <li><strong>他の画像も追加</strong><br>必要な画像を <code>images/</code> フォルダにアップロードしてください</li>
+                <li><strong>Base64画像を置き換え</strong><br>パンフレットの重いBase64画像を、この方式に置き換えてファイルサイズを軽量化できます</li>
+            </ol>
+            <a href="index_v2.html" class="btn">📄 パンフレットを見る</a>
+        </div>
+    </div>
+</body>
+</html>
